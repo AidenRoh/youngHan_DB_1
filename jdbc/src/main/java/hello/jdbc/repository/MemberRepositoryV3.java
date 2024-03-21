@@ -2,18 +2,18 @@ package hello.jdbc.repository;
 
 import hello.jdbc.domain.Member;
 import lombok.extern.slf4j.Slf4j;
-import org.springframework.jdbc.datasource.DataSourceUtils;
-import org.springframework.jdbc.support.JdbcUtils;
-
 import javax.sql.DataSource;
 import java.sql.*;
 import java.util.NoSuchElementException;
+import org.springframework.jdbc.datasource.DataSourceUtils;
+import org.springframework.jdbc.support.JdbcUtils;
 
 /**
  * 트랜잭션 - 트랜잭션 메니저
  * DataSourceUtils.getConnection()
  * DataSourceUtils.releaseConnection()
  */
+
 @Slf4j
 public class MemberRepositoryV3 {
     private final DataSource dataSource;
