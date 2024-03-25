@@ -1,6 +1,5 @@
 package hello.jdbc.exception.translator;
 
-import static com.sun.crypto.provider.AESCrypt.log;
 import static hello.jdbc.connection.ConnectionConst.*;
 
 import hello.jdbc.connection.ConnectionConst;
